@@ -1,0 +1,96 @@
+body
+{
+    background-color:#D0EAEA;
+    font-family: inherit;
+    height: 600px;
+}
+
+.tip
+{
+    height: 540px;
+    width: 320px;
+    background-color: rgb(19, 105, 105);
+    margin: auto;
+    margin-top: 63px;
+    border-radius: 17px;
+}
+form p
+{
+    color: #fff;
+    margin: 35px 0px 8px 0px;
+	font-size: 18px
+}
+form .people_after_input , form .bill_input
+{
+	display: inline ;
+	font-size: 18px
+
+}
+
+.tip .div_tip
+{
+    padding: 4px;
+    font-size: 29px;
+    text-align: center;
+    border-top-left-radius: 17px;
+    color: #fff;
+    background-color: rgba(27, 42, 22, 0.64);
+    border-top-right-radius: 17px;
+}
+
+select
+{
+    border-radius: 8px;
+    border: none;
+    padding: 4px;
+	    width: 70%;
+
+}
+
+form #amount , form #people , form .reset
+{
+    width: 70%;
+    padding: 8px;
+    border-radius: 7px;
+    border: none;
+    color: black;
+    margin: 0px;
+}
+
+form #people
+{
+	width: 50%
+}
+
+#submit
+{
+    display: block;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 20px;
+    margin: 50px 10px 10px 10px;
+    font-size: 26px;
+    background-color: #fff;
+}
+
+#submit:hover
+{
+    color: #fff;
+    background-color: lime
+}
+
+
+form .reset 
+{
+    width: 70px ;
+	margin-top: 10px
+}
+
+form span
+{
+    color: #fff;
+    font-size: 30px;
+	padding: 0;
+	display: block;
+	margin: 10px 0px
+}
